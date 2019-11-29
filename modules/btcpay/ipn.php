@@ -31,6 +31,14 @@ include(dirname(__FILE__).'/btcpay.php');
 
 $btcpay = new BTCpay();
 
+// update missing kernel object
+global $kernel;
+if(!$kernel){
+        require_once _PS_ROOT_DIR_.'/app/AppKernel.php';
+        $kernel = new \AppKernel('prod', false);
+        $kernel->boot();
+}
+
 $post = file_get_contents('php://input');
 if (!$post) {
     PrestaShopLogger::addLog('[Error] bad input', 3);

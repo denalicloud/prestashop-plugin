@@ -39,6 +39,10 @@ Their is still a lot's of place for improvement.
 e.g: plugin use order state id: 39,40,41,42.  Should use 49,50,51,52 if other plugins use the first one.
 * refactoring in ipn.php
 
+# Fix
+
+20191129 - Fixed IPN notification for Prestashop 1.7.6
+
 # Support
 
 ## Tested successfully
