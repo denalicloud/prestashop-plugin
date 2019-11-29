@@ -41,8 +41,7 @@ e.g: plugin use order state id: 39,40,41,42.  Should use 49,50,51,52 if other pl
 
 # Fix
 
-20191129 - Fixed IPN notification for Prestashop 1.7.6
-
+20191129 - Fixed IPN notification for Prestashop 1.7.6 - rif. [https://www.denali.swiss](https://www.denali.swiss)
 
 # Support
 
